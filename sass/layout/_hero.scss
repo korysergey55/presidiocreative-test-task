@@ -1,25 +1,24 @@
 @media screen and (min-width: 1680px) {
-
-.hero {
- width: 100%;
- height: 474px;
- margin: 0 auto;
- background-image: url(../../images/research-hero-desktop.png);
- background-position: center;
- background-size: cover;
- background-repeat: no-repeat;
-
- &_container {
+ .hero {
+  width: 100%;
+  height: 474px;
   margin: 0 auto;
- }
+  background-image: url(../../images/research-hero-desktop.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
- &_title {
-  padding-top: 150px;
-  font-size: 40px;
+  &_container {
+   margin: 0 auto;
+  }
+
+  &_title {
+   padding-top: 150px;
+   font-size: 40px;
+  }
+  &_text {
+   font-size: 20px;
+   width: 400px;
+  }
  }
- &_text{
-     font-size: 20px;
-     width: 400px;
- }
-}
 }

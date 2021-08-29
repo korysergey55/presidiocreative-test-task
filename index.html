@@ -24,9 +24,17 @@
      <a class="announcementBar_link" href="">Learn more</a>
     </div>
     <nav class="nav container">
-     <a href="" class="logo-link">
-      <img class="logo" src="./images/logo.png" alt="logo"
-     /></a>
+        <a class="mobile-menu-icon">
+            <svg class="mobile-menu-open">
+                <use href="./icons/symbol-defs.svg#icon-mobile-menu-open"></use>
+            </svg>
+        </a>
+     <a href="" class="logo-link"><img class="logo" src="./images/logo.png" alt="logo"/></a>
+     <a class="mobile-menu-cart" href="">
+     <svg class="mobile-menu-cart">
+         <use href="./icons/symbol-defs.svg#icon-cart-icon"></use>
+        </svg> 
+        </a>
      <ul class="nav_list">
       <li class="nav_list-item">
        <a class="nav_list-link" href="">Population Health</a>
@@ -52,6 +60,24 @@
    </div>
   </header>
   <main>
+       <!--------MOBILE-MENU--------->  
+        <div class="mobile-menu">
+              <ul class="mobile-menu_list">
+      <li class="mobile-menu_item">
+       <a class="mobile-menu_item-link" href="">Population Health</a>
+      </li>
+      <li class="mobile-menu_item">
+       <a class="mobile-menu_item-link" href="">DNA Tests</a>
+      </li>
+      <li class="mobile-menu_item">
+       <a class="mobile-menu_item-link" href="">Register Kit</a>
+      </li>
+      <li class="mobile-menu_item">
+       <a class="mobile-menu_item-link" href="">Sign In</a>
+      </li>
+      
+     </ul>
+        </div>
    <!----------HERO---------->
    <div class="hero">
     <div class="hero_container container">
@@ -128,13 +154,12 @@
           Flaxible test disign
          </button>
          <p class="markupItem_content">
-          The Exome+ assay provides the flexibility needed
-          to build a comprehensive panel that can be expanded over time. With
-          ~20,000 genes sequenced in each sample, every gene becomes a candidate
-          for inclusion. And, while we have ensured the highest call rates
-          across those genes that are most likely to belong to a panel, the
-          Exome+ assay delivers high call rates for all genes beyond this core
-          set.
+          The Exome+ assay provides the flexibility needed to build a
+          comprehensive panel that can be expanded over time. With ~20,000 genes
+          sequenced in each sample, every gene becomes a candidate for
+          inclusion. And, while we have ensured the highest call rates across
+          those genes that are most likely to belong to a panel, the Exome+
+          assay delivers high call rates for all genes beyond this core set.
          </p>
         </li>
         <li class="markupItem">
@@ -161,5 +186,6 @@
 
   <script type="module" src="./js/index.js"></script>
   <script type="module" src="./js/secondPage.js"></script>
+  <script type="module" src="./js/mobileMenu.js"></script>
  </body>
 </html>
