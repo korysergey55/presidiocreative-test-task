@@ -1,0 +1,331 @@
+@charset "UTF-8";
+/* ====================== Базовый сброс =============================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+body {
+  font-family: TTNorms, sans-serif;
+  font-size: 14px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+/* ====================== Container ================================*/
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1680px) {
+  .container {
+    width: 1680px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .header_container {
+    border-bottom: 1px solid grey;
+  }
+
+  .announcementBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    color: #ffffff;
+    background-color: #a0c5db;
+  }
+  .announcementBar_title {
+    margin-right: 15px;
+  }
+  .announcementBar_link {
+    display: inline-block;
+    color: #ffffff;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .announcementBar_link:hover {
+    cursor: pointer;
+    color: rgba(0, 38, 255, 0.568);
+  }
+
+  .nav {
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+  .nav_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+  }
+  .nav_list-item {
+    margin-right: 30px;
+  }
+  .nav_list-link {
+    font-size: 15px;
+    font-weight: 600;
+    color: #818080;
+    text-decoration: none;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .nav_list-link:hover {
+    cursor: pointer;
+    color: #155fff;
+  }
+
+  .logo {
+    width: 100px;
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  .logo-link:hover {
+    cursor: pointer;
+  }
+
+  .cart {
+    width: 35px;
+    height: 35px;
+    fill: #818080;
+  }
+
+  .nav_list-link:hover .cart {
+    fill: blue;
+  }
+}
+@media screen and (min-width: 1680px) {
+  .hero {
+    width: 100%;
+    height: 474px;
+    margin: 0 auto;
+    background-image: url(../../images/research-hero-desktop.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hero_container {
+    margin: 0 auto;
+  }
+  .hero_title {
+    padding-top: 150px;
+    font-size: 40px;
+  }
+  .hero_text {
+    font-size: 20px;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1680px) {
+  .mainContent {
+    width: 100%;
+    height: 100%;
+    padding-top: 61px;
+    padding-bottom: 70px;
+    background-color: #f4f4f4;
+  }
+
+  .mainContentSecondPage {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-top: 61px;
+    padding-bottom: 70px;
+  }
+
+  .title {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #363636;
+  }
+  .title_text {
+    width: 623px;
+    margin: 0 auto;
+    margin-bottom: 49px;
+    font-size: 16px;
+    color: #383838;
+    text-align: center;
+  }
+
+  .buttonsList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+  .buttonsList_item {
+    margin-right: 30px;
+  }
+  .buttonsList_link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    border: none;
+    color: #ababab;
+    background-color: transparent;
+  }
+  .buttonsList_link:hover {
+    cursor: pointer;
+    color: blue;
+  }
+}
+@media screen and (min-width: 1680px) {
+  .changing-content {
+    width: 1062px;
+    height: 607px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+
+  .markupContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 62px;
+  }
+
+  .markup_item {
+    width: 50%;
+  }
+  .markup_item-title {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #363636;
+  }
+  .markup_item-content {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #4e4e4e;
+  }
+
+  .markupImg {
+    display: inline-block;
+    width: 415px;
+    height: 415px;
+    margin-left: 30px;
+  }
+
+  .current {
+    color: blue;
+  }
+}
+@media screen and (min-width: 1680px) {
+  .changingContentSecondPage {
+    width: 1062px;
+    height: 607px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 7px;
+  }
+
+  .markupContainerSecondPage {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+
+  .markup_itemSecond {
+    width: 50%;
+  }
+
+  .markupItem {
+    min-height: 74px;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #383838;
+  }
+  .markupItem_link {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #6e6e6e;
+    border: none;
+    background-color: white;
+  }
+  .markupItem_link:hover {
+    cursor: pointer;
+    color: black;
+  }
+  .markupItem_link_content {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .markupImgSecond {
+    display: inline-block;
+    width: 467px;
+    height: 428px;
+    margin-left: 49px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 7px;
+  }
+
+  .active {
+    color: black;
+  }
+}/*# sourceMappingURL=main.css.map */

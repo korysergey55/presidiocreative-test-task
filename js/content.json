@@ -1,0 +1,20 @@
+[
+ {
+  "img": "../images/Oval.png",
+  "title": "Targeted Panels-1",
+  "text":
+   "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab ea totam aperiam repellendus praesentium quibusdam hic eaque quo placeat aliquam enim sint laborum harum, iusto rerum sunt quis necessitatibus!"
+ },
+ {
+  "img": "../images/Oval2.png",
+  "title": "Targeted Panels-2",
+  "text":
+   " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab ea totam aperiam repellendus praesentium quibusdam hic eaque quo placeat aliquam enim sint laborum harum, iusto rerum sunt quis necessitatibus!"
+ },
+ {
+  "img": "../images/Oval3.png",
+  "title": "Targeted Panels-3",
+  "text":
+   " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ab ea totam aperiam repellendus praesentium quibusdam hic eaque quo placeat aliquam enim sint laborum harum, iusto rerum sunt quis necessitatibus!"
+ }
+]

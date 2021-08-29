@@ -1,0 +1,60 @@
+@media screen and (min-width: 1680px) {
+ .changingContentSecondPage {
+  width: 1062px;
+  height: 607px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 7px;
+ }
+ .markupContainerSecondPage {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+ }
+ .markup_itemSecond {
+  width: 50%;
+ }
+ .markupItem {
+  min-height: 74px;
+  border-bottom: 1px solid #d7d7d7;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #383838;
+
+  &_link {
+   display: block;
+   font-size: 20px;
+   font-weight: 600;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   color: rgb(110, 110, 110);
+   border: none;
+   background-color: white;
+
+   &:hover {
+    cursor: pointer;
+    color: black;
+   }
+   &_content {
+    font-size: 15px;
+    font-weight: 400;
+   }
+  }
+ }
+
+ .markupImgSecond {
+  display: inline-block;
+  width: 467px;
+  height: 428px;
+  margin-left: 49px;
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+   1px 4px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 7px;
+ }
+
+ .active {
+  color: black;
+ }
+}
