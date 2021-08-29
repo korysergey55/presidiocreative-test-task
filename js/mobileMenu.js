@@ -1,14 +1,14 @@
-const mobileMenuButton = document.querySelector(".mobile-menu-icon");
-const headerMenu = document.querySelector(".mobile-menu");
+const mobileMenuButton = document.querySelector('.mobile-menu-icon')
+const headerMenu = document.querySelector('.mobile-menu')
 
-mobileMenuButton.addEventListener("click", openMenu);
+mobileMenuButton.addEventListener('click', openMenu)
 
 function openMenu() {
-    const isOpen = headerMenu.style.display;
-  if(!isOpen || isOpen === 'none'){
-    headerMenu.style.display = "block"
+  const isOpen = headerMenu.style.display
+  if (!isOpen || isOpen === 'none') {
+    headerMenu.style.display = 'block'
   }
-  if(isOpen === 'block'){
-    headerMenu.style.display = "none"
+  if (isOpen === 'block') {
+    headerMenu.style.display = 'none'
   }
 }

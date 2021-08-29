@@ -1,47 +1,66 @@
-@media screen and (min-width: 1680px) {
- .changing-content {
-  width: 1062px;
-  height: 607px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  border-radius: 7px;
-  background-color: #ffffff;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-   1px 4px 6px rgba(0, 0, 0, 0.16);
- }
- .markupContainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 62px;
- }
- .markup_item {
-  width: 50%;
-
+.markup_item {
   &-title {
-   margin: 0 auto;
-   margin-bottom: 20px;
-   font-size: 24px;
-   color: #363636;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #363636;
   }
   &-content {
-   font-size: 16px;
-   font-weight: normal;
-   font-stretch: normal;
-   font-style: normal;
-   line-height: 1.63;
-   letter-spacing: normal;
-   color: #4e4e4e;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.63;
+    color: #4e4e4e;
   }
- }
-
- .markupImg {
-  display: inline-block;
-  width: 415px;
-  height: 415px;
-  margin-left: 30px;
- }
- .current {
+}
+.current {
   color: blue;
- }
+}
+@media screen and (min-width: 768px) {
+  .changing-content {
+    width: 750px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  .markupContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 42px;
+  }
+  .markup_item {
+    width: 50%;
+    &-title {
+      margin: 0 auto;
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+    &-content {
+      font-size: 16px;
+    }
+  }
+  .markupImg {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .changing-content {
+    width: 1062px;
+    height: 607px;
+    margin-bottom: 20px;
+  }
+  .markupContainer {
+    padding: 62px;
+  }
+  .markupImg {
+    display: inline-block;
+    width: 415px;
+    height: 415px;
+  }
 }

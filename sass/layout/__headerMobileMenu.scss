@@ -1,3 +1,43 @@
-.mobile-menu{
+
+.mobile-menu-open {
+    width: 35px;
+    height: 35px;
+    fill: #818080;
+    &:hover {
+      fill: blue;
+    }
+  }
+  .mobile-menu-cart {
+    width: 35px;
+    height: 35px;
+    fill: #818080;
+    &:hover {
+      fill: blue;
+    }
+  }
+
+.mobile-menu {
+  display: none;
+
+  &_list {
+   
+    &-item {
+      text-decoration: none;
+    }
+    &-link {
+      text-decoration: none;
+      color: rgb(0, 38, 255);
+      font-size: 12px;
+      font-weight: 900;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu-open {
     display: none;
+  }
+  .mobile-menu-cart {
+    display: none;
+  }
 }
